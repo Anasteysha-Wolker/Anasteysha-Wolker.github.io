@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="img/logo.png" alt="Logo" width="150" height="150" class="logo animated flipInX">
+                </div>
+                <div class="col-lg-5">
+                    <nav> <h4>
+                        <ul class="menu d-flex justify-content-center animated flipInX">
+                            <li class="menu__item">
+                                <a href="#">Acceuil</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">Actualités</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">Evénements</a>
+                            </li>
+                        </ul>
+                        </h4></nav>
+                </div>
+                <div class="col-lg-2">
+                    <div class="login animated flipInX">
+                        <a href="login.html">Login</a>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="main">
+                    <h3 class="main__title">
+                        A propos de nous
+                    </h3>
+                    <h5><div class="main__intro">
+                        Ce site est créé pour inspirer.
+                    </div>
+                     <div class="main__text">
+                        La créativité est de prendre les éléments déjà existants
+                        et de les combiner d'une manière unique. <br> Si vous cherchez de nouvelles idées ...</br>
+                    </div></h5>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/hand.png" alt="Community" width="650" height="300" class="community animated zoomIn">
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <section id="topic" class="topic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="title">
+                        <h2 class="topic__title__main">
+                            Sujets principaux
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="topic__item">
+                        <div class="topic__item__icon">
+                            <a href="#"><i class="fas fa-user-friends"></i></a>
+                        </div>
+                        <div class="topic__item__block">
+                            <h3 class="topic__item__title">
+                                Abonnés
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="topic__item">
+                        <div class="topic__item__icon">
+                            <a href="#"><i class="fas fa-mug-hot"></i></a>
+                        </div>
+                        <div class="topic__item__block">
+                            <h3 class="topic__item__title">
+                                Forum
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="topic__item">
+                        <div class="topic__item__icon">
+                            <a href="#"><i class="far fa-grin-hearts"></i></a>
+                        </div>
+                        <div class="topic__item__block">
+                            <h3 class="topic__item__title">
+                                Favoris
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="topic__item">
+                        <div class="topic__item__icon">
+                            <a href="#"><i class="fas fa-feather-alt"></i></a>
+                        </div>
+                        <div class="topic__item__block">
+                            <h3 class="topic__item__title">
+                                Mes travaux créatifs
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="carousel" class="carousel">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="swiper-container main-slider" id="myCarousel">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slider-bg-position" style="background:url(img/pencil.jpg)" data-hash="slide1">
+                            </div>
+                            <div class="swiper-slide slider-bg-position" style="background:url(img/sl.jpg)" data-hash="slide3">
+                            </div>
+                            <div class="swiper-slide slider-bg-position" style="background:url(img/353.jpg)" data-hash="slide3">
+                            </div>
+                            <div class="swiper-slide slider-bg-position" style="background:url(img/art.jpg)" data-hash="slide3">
+                            </div>
+                            <div class="swiper-slide slider-bg-position" style="background:url(img/img18.jpg)" data-hash="slide3">
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Navigation -->
+                        <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
+                        <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row text-center">
+                <div class="col-lg-2 col-xs-12  text-center">
+                    <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                </div>
+                <div class="col-lg-2 col-xs-12 text-center">
+                    <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                </div>
+                <div class="col-lg-2 col-xs-12 text-center">
+                    <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                </div>
+                <div class="col-lg-2 col-xs-12 text-center">
+                    <a href="#"><i class="fab fa-youtube"></i>YouTube</a>
+                </div>
+                <div class="col-lg-2 col-xs-12 text-center">
+                    <a href="#"><i class="fab fa-github"></i>Github</a>
+                </div>
+                <div class="col-lg-2 col-xs-12 text-center">
+                    <a href="#"><i class="fab fa-google"></i>Google</a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="border-top:1px solid grey;">
+            <div class="row text-center">
+                <div class="col-lg-12 col-lg-offset-3">
+                    <ul class="menu">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/carousel.js"></script>
+
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</body>
+</html>
